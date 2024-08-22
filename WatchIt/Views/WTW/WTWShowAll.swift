@@ -37,7 +37,7 @@ struct WTWShowAll: View {
                 .navigationTitle("What to Watch")
                 .onAppear {
                     if let loadedFilms = JSONManager.loadData() {
-                        films = loadedFilms
+                        films = Array(loadedFilms[...6])
                     }
                 }
             }

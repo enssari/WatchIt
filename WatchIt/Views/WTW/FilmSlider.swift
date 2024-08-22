@@ -21,22 +21,21 @@ struct FilmSlider: View {
                         VStack {
                             Image(film.image)
                                 .resizable()
-                                .frame(width: 330, height: 180)
-                                .aspectRatio(contentMode: .fit)
-                                .cornerRadius(20)
-                                .shadow(color: Color("gradientGray"),
-                                        radius: 3, x: 2, y: 2)
-                                .padding()
+                                .scaledToFit()
+                                .frame(width: 330, height: 280)
+                                .cornerRadius(30)
                         }
                     }
                 }
+                .frame(height: 250)
+                .shadow(color: Color("gradientGray"),
+                        radius: 3, x: 2, y: 2)
                 .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
             }
         }
-        .padding(.bottom, 300)
         .onAppear {
             if let loadedFilms = JSONManager.loadData() {
-                films = loadedFilms
+                films = Array(loadedFilms[...6])
             }
         }
         .ignoresSafeArea()

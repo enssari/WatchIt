@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct WTW: View {
+struct WTWView: View {
     var body: some View {
         VStack {
-            HStack(spacing: 80) {
+            HStack(spacing: 105) {
                 Text("What To Watch")
-                    .font(.title2)
+                    .font(.title)
                     .fontWeight(.semibold)
                 
                 NavigationLink(destination: WTWShowAll()) {
@@ -22,11 +22,10 @@ struct WTW: View {
             
             FilmSlider()
         }
-        .padding()
-        Spacer()
+        
     }
 }
 
 #Preview {
-    WTW()
+    WTWView()
 }

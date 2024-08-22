@@ -12,9 +12,10 @@ struct Film: Codable, Identifiable {
     let name: String
     let category: String
     var image: String
+    let description: String
     
     private enum CodingKeys: String, CodingKey {
-        case name, category, image
+        case name, category, image, description
     }
 }
 

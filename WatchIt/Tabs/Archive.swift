@@ -8,8 +8,20 @@
 import SwiftUI
 
 struct Archive: View {
+    
+    var archive: Array? = []
+    var isArchiveEmpty: Bool = true
+    
     var body: some View {
-        Text("archive")
+        NavigationView {
+            VStack {
+                if let archivedFilms = archive {
+                    VStack {
+                        Text("Your Archive is Empty.")
+                    }
+                }
+            }
+        }
     }
 }
 

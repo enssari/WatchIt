@@ -2,36 +2,84 @@
     {
         "name": "Hitman",
         "category": "Action",
-        "image": "hitman"
+        "image": "hitman",
+        "description": ""
     },
     {
         "name": "Aquaman",
         "category": "Action",
-        "image": "aquaman"
+        "image": "aquaman",
+        "description": ""
     },
     {
         "name": "Dabbe",
         "category": "Horror",
-        "image": "dabbe"
+        "image": "dabbe",
+        "description": ""
     },
     {
         "name": "Elysium",
         "category": "SCI-FI",
-        "image": "elysium"
+        "image": "elysium",
+        "description": ""
     },
     {
         "name": "Batman",
         "category": "Action",
-        "image": "batman"
+        "image": "batman",
+        "description": ""
     },
     {
         "name": "Jackpot",
         "category": "Comedy",
-        "image": "jackpot"
+        "image": "jackpot",
+        "description": ""
     },
     {
         "name": "Deadpool",
         "category": "Comedy",
-        "image": "deadpool"
-    }
+        "image": "deadpool",
+        "description": ""
+    },
+    {
+      "name": "Black Friday",
+      "image": "blackf",
+      "category": "Horror",
+      "description": "A horror film that follows in the footsteps of the classics of the genre while not shying away from humor"
+      },
+      
+      {
+      "name": "Zevcat",
+      "image": "zevcat",
+      "category": "Drama",
+      "description": "The striking story of women caught in a twisted relationship"
+      },
+      
+      {
+      "name": "She Came To Me",
+      "image": "sctme",
+      "category": "Romantic",
+      "description": "A clever romantic comedy that pushes the boundaries of the genre."
+      },
+      
+      {
+      "name": "Eileen",
+      "image": "eileen",
+      "category": "Thriller",
+      "description": "The story of Eileen, who dreams of a different life, is disturbing and fascinating."
+      },
+      
+      {
+      "name": "The Kill Room",
+      "image": "killroom",
+      "category": "Thriller",
+      "description": "A Cold-Blooded Assassin is the New Star of the Contemporary Art World"
+      },
+      
+      {
+      "name": "Vesper",
+      "image": "vesper",
+      "category": "SCI-FI",
+      "description": "Science fiction, which feeds on current fears, fascinates with its visual world."
+      }
 ]

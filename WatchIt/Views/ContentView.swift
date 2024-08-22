@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
+        ZStack {
             NavigationView {
                 TabView {
                     WatchNow()
@@ -36,8 +36,6 @@ struct ContentView: View {
                 .accentColor(.orange)
             }
         }
-        .padding()
-        .ignoresSafeArea()
     }
 }
 
