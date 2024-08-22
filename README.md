@@ -1,4 +1,4 @@
-WatchIt is an app for watching films online
+Some Screenshots From the App
 
 <img width="462" alt="Screenshot 2024-08-22 at 5 13 54 PM" src="https://github.com/user-attachments/assets/76e6545e-6eb5-441d-beb3-f449a6c48c97">
 
