@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Hitman",
+        "category": "Action",
+        "image": "hitman"
+    },
+    {
+        "name": "Aquaman",
+        "category": "Action",
+        "image": "aquaman"
+    },
+    {
+        "name": "Dabbe",
+        "category": "Horror",
+        "image": "dabbe"
+    },
+    {
+        "name": "Elysium",
+        "category": "SCI-FI",
+        "image": "elysium"
+    },
+    {
+        "name": "Batman",
+        "category": "Action",
+        "image": "batman"
+    },
+    {
+        "name": "Jackpot",
+        "category": "Comedy",
+        "image": "jackpot"
+    },
+    {
+        "name": "Deadpool",
+        "category": "Comedy",
+        "image": "deadpool"
+    }
+]
